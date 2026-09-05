@@ -1,0 +1,28 @@
+# dataset
+data/
+
+# YOLO dataset
+Train_YOLOv8/data/train/
+Train_YOLOv8/data/test/
+Train_YOLOv8/data/val/
+
+# YOLO cache
+*.cache
+
+# YOLO model weights
+*.pt
+*.pth
+*.onnx
+
+# YOLO runs (training results)
+Train_YOLOv8/runs/
+
+# Office files (nếu không muốn up)
+*.docx
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Windows
+Thumbs.db
+desktop.ini
